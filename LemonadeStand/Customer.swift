@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+struct Customer {
+    var preference = ""
+    var order = ""
+}

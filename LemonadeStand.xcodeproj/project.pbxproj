@@ -13,6 +13,9 @@
 		585971B71A0733D4008F26D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 585971B61A0733D4008F26D5 /* Images.xcassets */; };
 		585971BA1A0733D4008F26D5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 585971B81A0733D4008F26D5 /* LaunchScreen.xib */; };
 		585971C61A0733D4008F26D5 /* LemonadeStandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585971C51A0733D4008F26D5 /* LemonadeStandTests.swift */; };
+		585971D01A073B31008F26D5 /* lemons.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 585971CF1A073B31008F26D5 /* lemons.jpg */; };
+		585971D21A075DBE008F26D5 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585971D11A075DBE008F26D5 /* Customer.swift */; };
+		585971D41A0764CD008F26D5 /* Market.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585971D31A0764CD008F26D5 /* Market.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		585971BF1A0733D4008F26D5 /* LemonadeStandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LemonadeStandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		585971C41A0733D4008F26D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		585971C51A0733D4008F26D5 /* LemonadeStandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonadeStandTests.swift; sourceTree = "<group>"; };
+		585971CF1A073B31008F26D5 /* lemons.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lemons.jpg; sourceTree = "<group>"; };
+		585971D11A075DBE008F26D5 /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		585971D31A0764CD008F26D5 /* Market.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Market.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,8 @@
 			children = (
 				585971AF1A0733D4008F26D5 /* AppDelegate.swift */,
 				585971B11A0733D4008F26D5 /* ViewController.swift */,
+				585971D11A075DBE008F26D5 /* Customer.swift */,
+				585971D31A0764CD008F26D5 /* Market.swift */,
 				585971B31A0733D4008F26D5 /* Main.storyboard */,
 				585971B61A0733D4008F26D5 /* Images.xcassets */,
 				585971B81A0733D4008F26D5 /* LaunchScreen.xib */,
@@ -90,6 +98,7 @@
 		585971AD1A0733D4008F26D5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				585971CF1A073B31008F26D5 /* lemons.jpg */,
 				585971AE1A0733D4008F26D5 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -195,6 +204,7 @@
 				585971B51A0733D4008F26D5 /* Main.storyboard in Resources */,
 				585971BA1A0733D4008F26D5 /* LaunchScreen.xib in Resources */,
 				585971B71A0733D4008F26D5 /* Images.xcassets in Resources */,
+				585971D01A073B31008F26D5 /* lemons.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +222,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				585971D21A075DBE008F26D5 /* Customer.swift in Sources */,
 				585971B21A0733D4008F26D5 /* ViewController.swift in Sources */,
 				585971B01A0733D4008F26D5 /* AppDelegate.swift in Sources */,
+				585971D41A0764CD008F26D5 /* Market.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
